@@ -1,0 +1,69 @@
+/* Write your CSS code here */
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.title {
+  color: #ea580c;
+  font-size: 55px;
+}
+.form-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 30%;
+  border-radius: 20px;
+  padding: 70px;
+}
+.input {
+  height: 40px;
+  width: 100%;
+  border: 1px solid #9aa5b1;
+  border-radius: 5px;
+  margin-top: 4px;
+  padding-left: 10px;
+  outline: none;
+  font-size: 18px;
+}
+.label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #6f7479;
+}
+.btn-container {
+  text-align: center;
+}
+.submit-btn {
+  height: 40px;
+  width: 150px;
+  background-color: #ea580c;
+  border-radius: 5px;
+  border-style: none;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.error-msg {
+  color: red;
+  margin: 0;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.success-btn {
+  height: 40px;
+  width: 250px;
+  background-color: #ea580c;
+  border-radius: 5px;
+  border-style: none;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.success-container {
+  text-align: center;
+}
